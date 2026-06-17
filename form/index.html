@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign In</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- <form id="form">
+        <h2>Sign In</h2>
+
+        <input type="text" id="username" placeholder="Username"><br><br>
+
+        <input type="password" id="password" placeholder="Password"><br><br>
+
+        <button type="submit">Sign In</button>
+
+        <p id="msg"></p>
+    </form> -->
+    <div class="form-container">
+
+        <form onsubmit="validateForm(event)">
+            <h1>Login Form</h1>
+
+            <input type="text" placeholder="Enter Username" name="username">
+            <input type="password" placeholder="Enter Password" name="password">
+            <p id ="error"></p>
+            <!-- <input type="submit" value="Login In"> -->
+            <input type="submit" value="Login">
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
